@@ -924,12 +924,6 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:hover,
-.close-btn:focus {
-  background-color: red;
-  -moz-outline-radius: 50%;
-}
-
 .close-icon {
   fill: var(--black-color);
 
@@ -940,7 +934,7 @@ img {
 
 .close-btn:hover .close-icon,
 .close-btn:focus .close-icon {
-  fill: var(--primary-white-color);
+  fill: var(--accent-color);
 }
 
 /* END MODAL WINDOW */
