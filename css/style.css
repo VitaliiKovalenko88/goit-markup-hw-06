@@ -645,6 +645,7 @@ img {
 }
 
 .footer-subscribe-form {
+  position: relative;
   display: flex;
 }
 
@@ -670,7 +671,6 @@ img {
 }
 
 .subscribe-form-btn-content {
-  position: relative;
 }
 
 .subscribe-form-btn {
@@ -703,7 +703,7 @@ img {
 .subscribe-form-icon {
   position: absolute;
   top: 50%;
-  left: 75%;
+  left: 91%;
   transform: translateY(-50%);
   cursor: pointer;
 
